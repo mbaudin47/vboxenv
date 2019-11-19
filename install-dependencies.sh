@@ -27,48 +27,6 @@ sudo apt-get install -y jupyter-notebook
 sudo apt-get install -y libdlib19 libdlib-dev
 sudo apt-get install -y libceres1 libceres-dev 
 sudo apt-get install -y libsqlite3-0 libsqlite3-dev
-pip3 install sphinx
-
-# Get Miniconda
-cd ~/Documents
-curl -o miniconda.sh "https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh"
-cd ~
-
-# Get Bonmin
-cd ~/Documents
-sudo apt-get install subversion
-svn co https://projects.coin-or.org/svn/Bonmin/stable/1.8 Bonmin-stable
-cd Bonmin-stable/
-cd Thirdparty/Mumps
-./get.Mumps
-cd ../..
-mkdir build
-cd build/
-../configure --prefix=$PWD/install
-make
-make install
-export COIN_ROOT_DIR="/home/osboxes/Documents/Bonmin-stable/build"
-
-# Get OPT++
-# Get sources on https://software.sandia.gov/opt++/opt++_download.html
-cd optpp-2.4
-mkdir build
-../configure --prefix=$PWD/install
-make -j4
-make check
-make install
-
-# Get chaospy
-# Référence : https://github.com/jonathf/chaospy
-pip3 install chaospy
-
-# Build OpenTURNS
-cd openturns
-mkdir build
-cd build
-cmake .. -DCMAKE_INSTALL_PREFIX=$PWD/install -DCOIN_ROOT_DIR=/home/osboxes/Documents/Bonmin-stable/build  -DPYTHON_INCLUDE_PATH=/usr/include/python3.7m -DPYTHON_LIBRARIES=/usr/lib/python3 -DPYTHON_EXECUTABLE=/usr/bin/python3 -DUSE_SPHINX=ON 
-make -j4
-make check
-make install
-make installcheck
+pip3 install numpydoc
+pip3 install -U Sphinx
 

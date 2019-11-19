@@ -1,0 +1,134 @@
+osboxes@osboxes:~/GIT/openturns-dev/openturns/build$ cmake .. -DCMAKE_INSTALL_PREFIX=$PWD/install -DCOIN_ROOT_DIR=/home/osboxes/Documents/Bonmin-stable/build/install -DPYTHON_INCLUDE_PATH=/usr/include/python3.7m -DPYTHON_LIBRARIES=/usr/lib/python3 -DPYTHON_EXECUTABLE=/usr/bin/python3 -DUSE_SPHINX=ON -DSPHINX_FLAGS=”-j4”
+-- The C compiler identification is GNU 9.2.1
+-- The CXX compiler identification is GNU 9.2.1
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Looking for sgemm_
+-- Looking for sgemm_ - found
+-- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  
+-- Looking for cheev_
+-- Looking for cheev_ - found
+-- A library with LAPACK API found.
+-- Found BISON: /usr/bin/bison (found suitable version "3.4.1", minimum required is "2.4") 
+-- Found FLEX: /usr/bin/flex (found version "2.6.4") 
+-- Found TBB: /usr/lib/x86_64-linux-gnu/libtbb.so (found version "2019.0") 
+-- Found muParser: /usr/lib/x86_64-linux-gnu/libmuparser.so (found suitable version "2.2.6", minimum required is "2.2.3") 
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.13") found components:  doxygen missing components:  dot
+-- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found version "2.9.4") 
+-- Boost version: 1.67.0
+-- Looking for R package base - found
+-- Found R: /usr/bin/R (found version "3.6.1") 
+-- Found NLopt: /usr/lib/x86_64-linux-gnu/libnlopt_cxx.so  
+-- nlopt::GN_AGS: fails to build
+-- Found dlib: /usr/lib/x86_64-linux-gnu/cmake/dlib (found version 19.10.0)
+-- Could NOT find OPTpp (missing: OPTPP_LIBRARY OPTPP_INCLUDE_DIR OPTPP_INCLUDE_DIRS OPTPP_ROOT_DIR) 
+-- Found installed version of Eigen: /usr/lib/cmake/eigen3
+-- Found required Ceres dependency: Eigen version 3.3.7 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found installed version of gflags: /usr/lib/x86_64-linux-gnu/cmake/gflags
+-- Detected gflags version: 2.2.2
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 1.14.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]
+-- Found CMinpack: /usr/lib/x86_64-linux-gnu/libcminpack.so  
+-- Found COIN: /home/osboxes/Documents/Bonmin-stable/build/install/include/coin  
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- Looking for dirent.h
+-- Looking for dirent.h - found
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for libgen.h
+-- Looking for libgen.h - found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for stdlib.h
+-- Looking for stdlib.h - found
+-- Looking for sys/stat.h
+-- Looking for sys/stat.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for xlocale.h
+-- Looking for xlocale.h - not found
+-- Looking for uselocale
+-- Looking for uselocale - found
+-- Looking for dladdr
+-- Looking for dladdr - found
+-- Found SWIG: /usr/bin/swig3.0 (found suitable version "3.0.12", minimum required is "2.0.9") 
+-- Performing Test UNDEFINED_SYMBOLS_ALLOWED - Success
+-- Found PythonInterp: /usr/bin/python3 (found version "3.7.5") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.7m.so (found suitable exact version "3.7.5rc1") 
+-- Found numpy: /usr/lib/python3/dist-packages/numpy (found version "1.16.2") 
+-- Found scipy: /usr/lib/python3/dist-packages/scipy (found version "1.2.2") 
+-- Found chaospy: /home/osboxes/.local/lib/python3.7/site-packages/chaospy  
+-- Found matplotlib: /usr/lib/python3/dist-packages/matplotlib (found suitable version "3.0.2", minimum required is "1.1") 
+-- Found nbconvert: /usr/lib/python3/dist-packages/nbconvert (found version "5.4.0") 
+-- Found sphinx: /home/osboxes/.local/lib/python3.7/site-packages/sphinx (found suitable version "2.2.1", minimum required is "1.1") 
+-- Found numpydoc: /home/osboxes/.local/lib/python3.7/site-packages/numpydoc (found version "0.9.1") 
+-- Found nbsphinx: /usr/lib/python3/dist-packages/nbsphinx.py (found version "0.4.2") 
+-- Found IPython: /usr/lib/python3/dist-packages/IPython (found version "5.8.0") 
+-- The following OPTIONAL packages have been found:
+
+ * BISON (required version >= 2.4)
+ * FLEX
+ * TBB
+ * muParser (required version >= 2.2.3)
+ * HMAT (required version >= 1.2)
+ * Doxygen
+ * LibXml2
+ * Boost (required version >= 1.46)
+ * R
+ * NLopt
+ * dlib
+ * Ceres
+ * CMinpack
+ * COIN
+ * SWIG (required version >= 2.0.9)
+ * PythonInterp
+ * PythonLibs (required version == 3.7.5)
+
+-- The following REQUIRED packages have been found:
+
+ * BLAS
+ * LAPACK
+ * Threads
+
+-- The following OPTIONAL packages have not been found:
+
+ * OPTpp
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/osboxes/GIT/openturns-dev/openturns/build
