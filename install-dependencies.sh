@@ -19,5 +19,6 @@ sudo apt-get install -y libpng-dev libjpeg-dev
 sudo apt-get install -y libdlib19 libdlib-dev
 sudo apt-get install -y libceres1 libceres-dev 
 sudo apt-get install -y libsqlite3-0 libsqlite3-dev
+sudo apt-get install -y curl
 
 
