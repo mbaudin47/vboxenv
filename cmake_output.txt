@@ -1,0 +1,48 @@
+-- A library with LAPACK API found.
+-- Boost version: 1.67.0
+-- Found NLopt: /home/osboxes/miniconda3/lib/cmake/nlopt
+-- Found dlib: /usr/lib/x86_64-linux-gnu/cmake/dlib (found version 19.10.0)
+-- Could NOT find OPTpp (missing: OPTPP_LIBRARY OPTPP_INCLUDE_DIR OPTPP_INCLUDE_DIRS OPTPP_ROOT_DIR) 
+-- Found installed version of Eigen: /home/osboxes/miniconda3/share/eigen3/cmake
+-- Found required Ceres dependency: Eigen version 3.3.7 in /home/osboxes/miniconda3/include/eigen3
+-- Found installed version of glog: /home/osboxes/miniconda3/lib/cmake/glog
+-- Detected glog version: 0.4.0
+-- Found required Ceres dependency: glog
+-- Found installed version of gflags: /home/osboxes/miniconda3/lib/cmake/gflags
+-- Detected gflags version: 2.2.2
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 1.14.0 installed in: /home/osboxes/miniconda3 with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]
+-- CMinPack found (include: /usr/include/cminpack-1, libs: optimized;/usr/lib/x86_64-linux-gnu/libcminpack.so;debug;/usr/lib/x86_64-linux-gnu/libcminpack.so;cminpack;m)
+-- Could NOT find COIN (missing: COIN_INCLUDE_DIR COIN_CBC_LIBRARY COIN_CBC_SOLVER_LIBRARY COIN_CGL_LIBRARY COIN_CLP_LIBRARY COIN_COIN_UTILS_LIBRARY COIN_OSI_LIBRARY COIN_OSI_CBC_LIBRARY COIN_OSI_CLP_LIBRARY COIN_BONMIN_LIBRARY COIN_IPOPT_LIBRARY) 
+-- The following OPTIONAL packages have been found:
+
+ * BISON (required version >= 2.4)
+ * FLEX
+ * TBB
+ * muParser (required version >= 2.2.3)
+ * HMAT (required version >= 1.2)
+ * Doxygen
+ * LibXml2
+ * Boost (required version >= 1.46)
+ * R
+ * dlib
+ * Ceres
+ * PkgConfig
+ * SWIG (required version >= 2.0.9)
+ * PythonInterp
+ * PythonLibs (required version == 3.7.4)
+
+-- The following REQUIRED packages have been found:
+
+ * BLAS
+ * LAPACK
+ * Threads
+
+-- The following OPTIONAL packages have not been found:
+
+ * OPTpp
+ * COIN
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/osboxes/GIT/openturns-dev/openturns/build
