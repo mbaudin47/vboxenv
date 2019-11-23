@@ -1,4 +1,6 @@
-# Get Bonmin
+# Michaël Baudin
+# This script get and builds Bonmin
+
 cd ~/Documents
 sudo apt-get install -y subversion
 svn co https://projects.coin-or.org/svn/Bonmin/stable/1.8 Bonmin-stable

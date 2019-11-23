@@ -1,4 +1,6 @@
-# Build OpenTURNS
+# Michaël Baudin
+# This builds OpenTURNS on Python 3 using Ubuntu packages only
+
 cd openturns
 mkdir build
 cd build
