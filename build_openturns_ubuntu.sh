@@ -9,4 +9,13 @@ make -j4
 make check
 make install
 make installcheck
+export PYTHONPATH="/home/osboxes/GIT/openturns/build/install/lib/python3.7/site-packages:$PYTHONPATH"
+export LD_LIBRARY_PATH="/home/osboxes/GIT/openturns/build/install/lib"
+
+# Check :
+#$ python3
+#Python 3.7.5rc1 (default, Oct  8 2019, 16:47:45) 
+#>>> import openturns
+#>>> openturns.__version__
+#'1.15dev'
 
