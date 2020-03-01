@@ -4,7 +4,7 @@
 set -xe
 
 # Référence : https://github.com/jonathf/chaospy
-sudo apt-get install -y python3-pip3
+sudo apt-get install -y python3-pip
 pip3 install chaospy
 
 
