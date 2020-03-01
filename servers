@@ -1,0 +1,4 @@
+[global]
+http-proxy-host = vip-users.proxy.edf.fr
+http-proxy-port = 3131
+
