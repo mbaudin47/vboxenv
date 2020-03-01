@@ -1,0 +1,15 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/python
+    steps:
+      - checkout
+      - run:
+          name: Build from Ubuntu
+          command: |
+              set -xe
+              echo `pwd`
+              bash ../get_and_build_openturns.sh
+
