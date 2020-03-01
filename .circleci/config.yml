@@ -11,5 +11,5 @@ jobs:
           command: |
               set -xe
               echo `pwd`
-              bash ../get_and_build_openturns.sh
+              bash get_and_build_openturns.sh
 
