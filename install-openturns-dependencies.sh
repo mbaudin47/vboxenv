@@ -1,6 +1,8 @@
 # Michaël Baudin
 # This script installs OpenTURNS dependencies
 
+set -xe
+
 # Get Ubuntu packages for OpenTURNS
 sudo apt-get install -y git
 sudo apt-get install -y cmake
