@@ -13,7 +13,9 @@ sudo apt-get install -y swig
 sudo apt-get install -y libnlopt-cxx-dev
 sudo apt-get install -y libcminpack-dev
 sudo apt-get install -y doxygen
-sudo apt-get install -y libhmat-oss-dev
+
+# Not maintained anymore
+# sudo apt-get install -y libhmat-oss-dev
 sudo apt-get install -y libpng-dev libjpeg-dev 
 sudo apt-get install -y libdlib19 libdlib-dev
 sudo apt-get install -y libceres1 libceres-dev 
