@@ -8,9 +8,8 @@ cd openturns
 mkdir build
 cd build
 cmake .. -DCMAKE_INSTALL_PREFIX=$PWD/install -DUSE_SPHINX=ON -DSPHINX_FLAGS="-j4"
-make -j4
-make check
 make install
+make check
 make installcheck
 
 # Export environment variables
