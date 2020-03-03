@@ -1,6 +1,8 @@
 # Michaël Baudin
 # This script installs OpenTURNS Python dependencies from apt-get
 
+set -xe
+
 # Python
 sudo apt-get install -y python3-numpy
 sudo apt-get install -y python3-scipy
