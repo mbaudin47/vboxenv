@@ -4,7 +4,7 @@
 set -xe
 
 # Download
-sudo apt-get install -y subversion
+sudo apt install -y subversion
 svn co https://projects.coin-or.org/svn/Bonmin/stable/1.8 Bonmin-stable
 cd Bonmin-stable/ThirdParty/Mumps/
 ./get.Mumps
