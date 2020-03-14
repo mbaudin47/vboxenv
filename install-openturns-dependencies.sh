@@ -4,30 +4,31 @@
 set -xe
 
 # Get Ubuntu packages for OpenTURNS
-sudo apt-get install -y git
-sudo apt-get install -y cmake
-sudo apt-get install -y gcc g++ gfortran flex bison
-sudo apt-get install -y libtbb-dev libxml2-dev
-sudo apt-get install -y r-base-core liblapack-dev libmuparser-dev libboost-math-dev
-sudo apt-get install -y swig
-sudo apt-get install -y libnlopt-cxx-dev
-sudo apt-get install -y libcminpack-dev
-sudo apt-get install -y doxygen
+sudo apt install -y git
+sudo apt install -y cmake
+sudo apt install -y gcc g++ gfortran flex bison
+sudo apt install -y libtbb-dev libxml2-dev
+sudo apt install -y r-base-core liblapack-dev libmuparser-dev libboost-math-dev
+sudo apt install -y swig
+sudo apt install -y libnlopt-cxx-dev
+sudo apt install -y libcminpack-dev
+sudo apt install -y doxygen
 
 # Not maintained anymore
-# sudo apt-get install -y libhmat-oss-dev
+# sudo apt install -y libhmat-oss-dev
 
-sudo apt-get install -y libpng-dev libjpeg-dev 
-sudo apt-get install -y libdlib19 libdlib-dev
-sudo apt-get install -y libceres1 libceres-dev 
-sudo apt-get install -y libsqlite3-0 libsqlite3-dev
+sudo apt install -y libpng-dev libjpeg-dev 
+sudo apt install -y libdlib19 libdlib-dev
+sudo apt install -y libceres1 libceres-dev 
+sudo apt install -y libsqlite3-0 libsqlite3-dev
+sudo apt install -y coinor-libipopt-dev
 
 # For LaTeX
-sudo apt-get install -y texlive-base
-sudo apt-get install -y texlive
-sudo apt-get install -y texlive-latex-extra
+sudo apt install -y texlive-base
+sudo apt install -y texlive
+sudo apt install -y texlive-latex-extra
 
 # For development
-sudo apt-get install -y curl
+sudo apt install -y curl
 
 
