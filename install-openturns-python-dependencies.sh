@@ -17,4 +17,5 @@ sudo apt-get install python3-pip
 pip3 install nbsphinx
 pip3 install numpydoc
 pip3 install sphinx
+pip3 install pandas
 
