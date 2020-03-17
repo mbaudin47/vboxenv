@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/mbaudin47/vboxenv.svg?style=svg)](https://circleci.com/gh/mbaudin47/vboxenv)
+
 # vboxenv
 Virtual Box Environment For OpenTURNS
 
