@@ -20,6 +20,6 @@ cd ..
 
 # Export environment variables
 echo `pwd`
-export COIN_ROOT_DIR="$PWD/build"
+export COIN_ROOT_DIR="$PWD/build/install"
 
 cd ..
